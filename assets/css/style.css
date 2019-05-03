@@ -1,11 +1,17 @@
 body {
     background-image: url(../images/background.jpeg);
+    min-height: 100vh;
+}
+
+.wholePage {
+    position: relative;
+    min-height: 100vh;
 }
 
 .content-area {
     margin-top: 3%;
     background-color: rgb(255, 255, 255, .6);
-    padding-bottom: 15px;
+    padding-bottom: 40px;
 }
 
 .social {
@@ -48,4 +54,23 @@ body {
 
 .buttonCenter {
     justify-content: center;
+}
+
+footer {
+    height: 50px;
+    min-width: 100%;
+    background-color: rgb(51,57,63);
+    position: absolute;
+    bottom: 0;
+}
+
+.btn {
+    background-color: rgb(51,57,63);
+    border-color: rgb(51,57,63);
+    margin-left: 5px;
+}
+
+.btn:hover {
+    background-color: black;
+    border-color: rgb(51,57,63);
 }
